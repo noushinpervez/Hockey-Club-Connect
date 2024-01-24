@@ -56,9 +56,49 @@
     <!-- header section -->
     <header class="container mx-auto w-11/12 lg:w-10/12">
         <!-- navbar -->
-        <nav></nav>
+        <nav>
+            <div>
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                <li><a>Home</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Pages</a></li>
+                                <li><a>Blog</a></li>
+                                <li><a>Contact</a></li>
+                            </ul>
+                        </div>
+                        <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold text-header">Hockey <span
+                                class="text-[#FF4240]">’</span> s</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-11 text-base">
+                            <li class="font-bold"><a><span class="text-[#FF4240]">Home</span></a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <a
+                            class="btn px-4 lg:px-5 py-2 bg-[#FF4240] border-0 text-white text-lg lg:text-xl font-bold mt-6">Get
+                            Ticket</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <!-- slider -->
-        <div class="rounded-2xl relative">
+        <div class="rounded-2xl relative mt-6 lg:mt-12">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./Images/1.png" class="w-full" />
